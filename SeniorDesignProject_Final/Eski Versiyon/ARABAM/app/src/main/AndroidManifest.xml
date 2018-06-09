@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dilara.arabamapplication">
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="YolArkadaşım"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register"></activity>
+        <activity android:name=".Content"></activity>
+        <activity android:name=".NewPassword"></activity>
+        <activity android:name=".CarProperties"></activity>
+        <activity android:name=".CarProperties2"></activity>
+        <activity android:name=".CarProperties3"></activity>
+        <activity android:name=".CarProperties4"></activity>
+        <activity android:name=".Dates"></activity>
+        <activity android:name=".VisaDate"></activity>
+        <activity android:name=".VisaDate2"></activity>
+        <activity android:name=".CareDate"></activity>
+        <activity android:name=".CareDate2"></activity>
+        <activity android:name=".ControlDate"></activity>
+        <activity android:name=".ControlDate2"></activity>
+        <activity android:name=".MaintenanceRepair"></activity>
+        <activity android:name=".MaintenanceRepair2"></activity>
+        <activity android:name=".FuelControl"></activity>
+        <activity android:name=".FuelControl2"></activity>
+        <activity android:name=".FuelControl3"></activity>
+        <activity android:name=".FuelControl4"></activity>
+        <activity android:name=".ParkingFee"></activity>
+        <activity android:name=".ParkingFee2"></activity>
+        <activity android:name=".ParkingFee3"></activity>
+        <activity android:name=".TraficInsurance"></activity>
+        <activity android:name=".TraficInsurance2"></activity>
+        <activity android:name=".Insurance"></activity>
+        <activity android:name=".CarInsurance"></activity>
+        <activity android:name=".CarInsurance2"></activity>
+
+    </application>
+
+</manifest>
