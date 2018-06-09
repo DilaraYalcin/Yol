@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ArabamApplication</string>
+    <string name="row_kullanici_adi">VARCHAR )</string>
+</resources>

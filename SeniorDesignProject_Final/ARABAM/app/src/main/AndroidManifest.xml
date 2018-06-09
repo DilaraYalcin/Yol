@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dilara.arabamapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="YolArkadaşı"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="Giriş Ekranı">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Content">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Register">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.REGISTER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CarProperties">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CARPROPERTIES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarProperties2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CARPROPERTIES2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarProperties3">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CARPROPERTIES3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarProperties4">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CARPROPERTIES4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dates">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.DATES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CareDate">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CAREDATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CareDate2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CAREDATE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ControlDate">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CONTROLDATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ControlDate2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CONTROLDATE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VisaDate">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.VISADATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".VisaDate2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.VISADATE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".MaintenanceRepair">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.REPAIR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MaintenanceRepair2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.REPAIR2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FuelControl">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.FUELCONTROL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FuelControl2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.FUELCONTROL2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FuelControl3">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.FUELCONTROL3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FuelControl4">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.FUELCONTROL4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ParkingFee">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.PARKINGFEE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ParkingFee2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.PARKINGFEE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ParkingFee3">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.PARKINGFEE3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Insurance">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.INSURANCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarInsurance">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CARINSURANCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CarInsurance2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.CARINSURANCE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TraficInsurance">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.TRAFICINSURANCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TraficInsurance2">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.TRAFICINSURANCE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".NewPassword">
+            <intent-filter>
+                <action android:name="com.example.dilara.arabamapplication.NEWPASSWORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
